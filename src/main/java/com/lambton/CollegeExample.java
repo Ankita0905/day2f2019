@@ -29,7 +29,8 @@ public class CollegeExample {
          System.out.println("Student fullname is: " +s1.getFullName());
          System.out.println("the total marks are:" +s1.getTotal());
          System.out.println("the percentage is:" +s1.getPercentage());
-         s1.generateResult();
+
+         System.out.println("the grade is:" +s1.getResult());
 
 
     }

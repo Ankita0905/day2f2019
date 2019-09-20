@@ -88,6 +88,60 @@ public class Student {
     {
         if(determineResult())
         {
+            if (percentage<=49)
+            {
+                result="f";
+            }
+            else
+            if (percentage<=59)
+            {
+                result="D";
+            }
+            else
+            if (percentage<=62.0)
+            {
+                result="C-";
+            }
+            else
+            if (percentage<=66)
+            {
+                result="C";
+            }
+            else
+            if (percentage<=69)
+            {
+                result="C+";
+            }
+            else
+            if (percentage<=72)
+            {
+                result="B-";
+            }
+            else
+            if (percentage<=76)
+            {
+                result="B";
+            }
+            else
+            if (percentage<=79)
+            {
+                result="B+";
+            }
+            else
+            if (percentage<=86)
+            {
+                result="A-";
+            }
+            else
+            if (percentage<=93)
+            {
+                result="A";
+            }
+            else
+            if (percentage<=100)
+            {
+                result="A+";
+            }
             System.out.println("PASS");
         }
     }
